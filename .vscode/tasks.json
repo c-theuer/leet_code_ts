@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run current problem",
+      "type": "shell",
+      "command": "npx",
+      "args": ["tsx", "${file}"],
+      "group": { "kind": "test", "isDefault": true },
+      "presentation": { "clear": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Watch current problem",
+      "type": "shell",
+      "command": "npx",
+      "args": ["tsx", "watch", "${file}"],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

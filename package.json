@@ -1,0 +1,22 @@
+{
+  "name": "leet-code-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Run and debug LeetCode problems in VS Code with TypeScript",
+  "type": "commonjs",
+  "scripts": {
+    "new": "tsx scripts/new.ts",
+    "test": "tsx scripts/run-all.ts",
+    "watch": "tsx watch",
+    "typecheck": "tsc"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@datastructures-js/priority-queue": "^6.4.0",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
